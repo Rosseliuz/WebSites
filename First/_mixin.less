@@ -1,0 +1,102 @@
+.header() {
+    p {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: #3D4F9F;
+        font-size: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        color: #3D4F9F;
+        font-size: 24px;
+    }
+}
+
+.button(@color, @padding, @background) {
+    color: @color;
+    padding: @padding;
+    background: @background;
+    cursor: pointer;
+}
+
+.clouds(@pos, @border, @color, @width, @height) {
+    position: @pos;
+    border-radius: @border; 
+    background: @color;
+    width: @width;
+    height: @height;
+}
+
+// Image Size
+.small-image() {
+    border-radius: 5px;
+    width: 126px;
+    height: 126px;
+}
+
+// Array
+.array() {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+// Feedback
+.block() {
+    box-shadow: 0px 5px 50px #F3F5FA;
+    position: relative;
+    width: 432px;
+    height: 175px;
+    background: white;
+
+    p {
+        color: #676F95;
+        text-transform: none;
+        font-family: 'Roboto', sans-serif;
+        width: 283px;
+        position: absolute;
+        text-align: left;
+        font-size: 13px;
+        top: 36%;
+        left: 20%;
+    }
+
+    .avatar {
+        border-radius: 100%;
+        width: 62px;
+        height: 62px;
+        position: absolute;
+        top: 80%;
+        left: 43%;
+        background: url(images/avatar.jpg);
+    }
+}
+
+// Point 
+.group {
+    width: 100px;
+    margin: 170px auto;
+    position: relative;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    li>div {
+        .point;
+    }
+
+    .active {
+        background: #5E81FF;
+    }
+}
