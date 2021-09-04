@@ -3,6 +3,57 @@
 @import url(_mixin.less);
 @import url(_variables.less);
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+// Header classes
+
+header {
+    height: 80px;
+}
+
+.logo {
+    position: absolute;
+    top: 27px;
+    left: 117px;
+    border-radius: 50px;
+    height: 26px;
+    width: 26px;
+    background: #5E81FE;
+    /* background: url(images/avatar-2.jpg); */
+}
+
+nav {
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    top: 33px;
+    left: 216px;
+    font-family: @Quicksand;
+}
+
+// Hero-image
+
+.social {
+    position: absolute;
+    right: 117px;
+    top: 32px;
+    font-size: 13px;
+}
+
+
+.hero-image {
+    height: 570px;
+    background: @hero-image;
+}
+
 nav, .social, .button {
     li {
         display: inline-block;
@@ -92,6 +143,8 @@ main, .plan {
         left: 18px;
     }
 }
+
+// Costumers
 
 .costumers {
     height: 100px;
