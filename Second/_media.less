@@ -1,0 +1,187 @@
+// Header 
+
+@media screen and (min-width: 800px) {
+    header {
+        width: 60%;
+        margin: 0 auto;
+    }
+    // Header block
+    ul {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: @border-bottom;
+    }
+
+    .info {
+        width: 155px;
+        transform: translateY(80px);
+    }
+
+    .image {
+        background: url(images/avatar.png) no-repeat;
+        background-size: 100%;
+        margin-bottom: 100px;
+        height: 387px;
+    }
+
+    // About block
+    .text{
+        padding: 120px 0px 80px 0px;
+        width: 60%;
+
+        p {
+            font-size: 18px;
+            padding-bottom: 20px;
+            margin: 0 auto;
+            width: 485px;
+        }
+    }
+
+    // Skills
+    .block {
+        width: 60%;
+
+        .text {
+            padding-top: 80px;
+            width: 100%;
+        }
+
+        h1 {
+            padding-bottom: 40px;
+        }
+
+        p {
+            padding-bottom: 0px;
+        }
+    }
+
+    .blue {
+        top: 29px;
+        left: 29px;
+    }
+
+    .orange {
+        left: 29px;
+    }
+
+    .images {
+        width: 60%;
+
+       img {
+           width: 166.7%;
+       }
+
+       a {
+           margin: 0 auto;
+       }
+
+       .padding {
+            padding-top: 100px;
+        }
+    }
+
+    .contacts+div {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+
+    header, .text, .images {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about {
+        width: 100%;
+    }
+    // Header block
+    nav:not(.second) {
+        display: none;
+    }
+
+    .info {
+        padding-top: 0px;
+        width: 155px;
+        padding-bottom: 8%;
+    }
+
+    .lang {
+        display: none;
+    }
+
+    .name {
+        width: 200px !important;
+        padding-bottom: 20px;
+    }
+
+    .image {
+        background: url(images/avatar-2.png) center no-repeat;
+        background-size: 101%;
+        height: 478px;
+        margin-bottom: 15%;
+    }
+
+    .burger {
+        width: 33px;
+        height: 100%;
+        position: absolute;
+        top: 50px;
+        left: 82%;
+
+        .line {
+            border: 2px solid black;
+            margin-bottom: 3px;
+        }
+    }
+
+    // About block
+    .text {
+        padding: 60px 0px 40px 0px;
+    }
+
+    .text > p {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    // Skills
+    .blue {
+        top: 29px;
+        left: 28px;
+    }
+
+    .orange {
+        left: 28px;
+    }
+
+    .images {
+        width: 80%;
+
+       img {
+           width: 100%;
+       }
+
+       a {
+           font-size: 12px;
+       }
+
+       .padding {
+            padding-top: 30px;
+         }
+    }
+
+    .contacts+div {
+        width: 80%;
+    }
+
+    .contacts {
+        li {
+            display: inline-block;
+        }
+
+        .inst {
+            top: 12px;
+        }
+    }
+}

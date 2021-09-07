@@ -1,0 +1,292 @@
+@import url(_variables.less);
+@import url(_media.less);
+@import url(_mixin.less);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: @Poppins;
+}
+
+header {
+    position: relative;
+
+    nav {
+    
+        li {
+            padding: 32px 0;
+            display: inline-block;
+        }
+    
+        a {
+            color: @grey;
+            font-size: @font-nav;
+            text-decoration: none;
+
+            &:hover {
+                color: @black;
+            }
+        }
+    
+        .active {
+            color: @black;
+        }
+    }
+    
+    nav:nth-child(2n) {
+        .name {
+            font-weight: bold;
+            font-size: @name;
+            width: 125px;
+        }
+    
+        .lang {
+            transform: rotate(90deg) scale(-1) translate(-25px, 80px);
+
+            a {
+                color: @grey;
+            }
+
+            .active {
+                color: @black;
+            }
+        }
+    
+        span {
+            color: @grey-2;
+        }
+    
+        ul {
+            border-bottom: none;
+        }
+    }
+}
+
+.about {
+    background: @about;
+
+    .text {
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-size: 32px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.skills {
+    text-align: center;
+
+    .block {
+        margin: 0 auto;
+    }
+
+    li {
+        margin: 0 auto;
+        width: 250px;
+        height: 300px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .adobe {
+        margin-left: 33%;
+        width: 89px;
+        height: 89px;
+        margin-bottom: 20px
+    }
+
+    .photoshop {
+        .adobe(#31C5F0);
+    }
+
+    .illustrator {
+        .adobe(#FF7F18)
+    }
+
+    .after {
+        .adobe(#D8A1FF);
+    }
+
+    .adobe+p, .figma+p {
+        font-size: 14px;
+        color: @subimage;
+        padding-bottom: 20px;
+    }
+
+    svg {
+        width: 26px;
+        height: 26px;
+        margin-left: 7px;
+    }
+
+    .figma {
+        position: relative;
+        margin-left: 36%;
+    }
+
+    .red, .orange, .purple, .blue, .green {
+        position: absolute;
+        width: 29px;
+        height: 29px;
+    }
+
+    .red {
+        background: #F24E1E;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .orange {
+        background: #FF7262;
+        border-radius: 0px 30px 30px 0px;
+    }
+
+    .purple {
+        top: 29px;
+        background: #A259FF;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .blue {
+        background: #1ABCFE;
+        border-radius: 30px;
+    }
+
+    .green {
+        top: 58px;
+        background: #0ACF83;
+        border-radius: 30px 0px 30px 30px;
+    }
+
+    .figma+p+.stars {
+        padding-top: 20px;
+    }
+}
+
+.example {
+    background: @about;
+    text-align: center;
+
+
+    .images {
+        padding: 100px 0;
+        margin: 0 auto;
+
+        h1 {
+            padding-bottom: 40px;
+        }
+
+        img {
+            margin-bottom: 30px;
+        }
+
+        a {
+            margin: 0 auto;
+            color: @black;
+        }
+    }
+}
+
+.contacts {
+    .text {
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        cursor: pointer;
+        margin: 0 auto;
+        width: 180px;
+        background: black;
+        padding: 6px 13px;
+        border-radius: 30px;
+        color: white;
+    }
+
+    .social {
+        font-size: 20px;
+    }
+
+    .s {
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .linke {
+        padding-top: 4px;
+        font-weight: bold;
+    }
+
+    .inst {
+        position: relative;
+
+        .circle {
+            position: absolute;
+            left: 16%;
+            top: 19%;
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            border: 2px solid black;
+        }
+
+        .mini {
+            position: absolute;
+            left: 77%;
+            top: 15%;
+            width: 5px;
+            height: 5px;
+            background: black;
+            border-radius: 100%;
+            border: 2px solid black;
+        }
+    }
+
+    .be {
+        position: relative;
+        padding-top: 3px;
+
+        .line {
+            position: absolute;
+            border: 1px solid black;
+            width: 9px;
+            top: 10px;
+            left: 20px;
+        }
+    }
+    
+    .dribble {
+        padding-top: 3px;
+        border-radius: 50px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        margin: 80px auto 40px auto;
+        border: none;
+        width: 200px;
+    }
+
+    span {
+        color: @grey;
+    }
+}
