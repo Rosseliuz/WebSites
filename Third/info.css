@@ -1,0 +1,92 @@
+.info-title {
+    width: 250px;
+    float: right;
+    height: 100vh;
+    background: hsl(0, 0%, 100%);
+    opacity: 0.9;
+}
+
+img {
+    width: 100%;
+    border-radius: 0;
+    padding-bottom: 5px;
+}
+
+.personal-info {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.personal-info h1 {
+    font-size: 20px;
+}
+
+.personal-info h1+.circle {
+    margin-top: -13px;
+    margin-left: 113px;
+}
+
+.pre-info {
+    color: #5F6164;
+    font-size: 12px;
+}
+
+.apps ul {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.apps ul li {
+    margin-right: 10px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: #E8E8EB;
+    border-radius: 22px;
+    opacity: 100%;
+}
+
+.apps svg {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+}
+
+.pre-info {
+    padding-top: 10px;
+}
+
+.message {
+    width: 150px;
+    float: left;
+    padding: 4px 15px;
+    font-weight: 700;
+    color: white;
+    background: #3577EF;
+    border-radius: 5px;
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    width: 134px;
+    padding-top: 15px;
+}
+
+.button svg {
+    margin: 10px;
+    color: white;
+    width: 8px;
+    height: 8px;
+}
+
+.list-button {
+    margin-left: 155px;
+    text-align: center;
+    width: 27px;
+    height: 27px;
+    background: #3577EF;
+    border-radius: 5px;
+}

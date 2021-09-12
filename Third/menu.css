@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/bg.jpg);
+    overflow: hidden;
+}
+
+.menu {
+    width: 350px;
+    height: 105vh;
+    float: left;
+}
+
+
+/* Icon */
+
+.icon {
+    width: 91px;
+    height: 100vh;
+    background: black;
+    opacity: 90%;
+    float: left;
+}
+
+.mac {
+    width: 90px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: -5px;
+    text-align: center;
+}
+
+.mac>* {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.last {
+    margin-right: 0;
+}
+
+
+/* Mac color */
+
+.red {
+    background: #fc5d5c;
+}
+
+.yellow {
+    background: #febd3f;
+}
+
+.green {
+    background: #35c949;
+}
+
+
+/* Social Icons */
+
+.social {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.social>* {
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    opacity: 30%;
+    transition: opacity .5s;
+}
+
+.social>*:hover {
+    opacity: 100%;
+}
+
+.social>.last {
+    margin-top: 38vh;
+    opacity: 10%;
+    background: white;
+    transition: opacity .5s;
+}
+
+.social>.last:hover {
+    opacity: 100%;
+}
+
+.social>.last>svg {
+    opacity: 100%;
+}
+
+img {
+    border-radius: 30px;
+    width: 50px;
+}
+
+li.active {
+    opacity: 100%;
+}
+
+div.active {
+    left: -25px;
+    top: 20px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background: #8F8F8F;
+}
+
+
+/* Last Icon */
+
+svg {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    opacity: 90%;
+}
+
+
+/* Icons */
+
+.first {
+    background: #FC4347;
+    cursor: pointer;
+}
+
+.first .image .left,
+.first .image .right {
+    position: absolute;
+    top: 12px;
+    border: 1px solid white;
+    width: 9px;
+    height: 25px;
+    background: white;
+}
+
+.first .image .left {
+    left: 11px;
+    transform: skew(0, -10deg) rotate(180deg);
+}
+
+.first .image .center {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    transform: skew(0, 10deg);
+    width: 9px;
+    height: 25px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.first .image .right {
+    left: 29px;
+    transform: skew(0, -10deg);
+}
+
+
+/* Second Icon */
+
+.second {
+    background: #E25A5A;
+}
+
+.second .left,
+.second .right,
+.second .top {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 20px;
+}
+
+.second .left {
+    top: 25px;
+    left: 12px;
+}
+
+.second .top {
+    top: 13px;
+    left: 19px;
+}
+
+.second .right {
+    top: 25px;
+    left: 27px;
+}
+
+
+/* Third Icon */
+
+.third {
+    background: #DA5430;
+    text-align: center;
+}
+
+.third .text {
+    font-weight: bold;
+    padding-top: 4px;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Fourth Icon */
+
+.fourth {
+    background: #EA4C89;
+}
+
+.fourth svg {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+
+/* Fifth icon */
+
+.fifth {
+    background: #5035DD;
+}
+
+.fifth svg {
+    border-radius: 20px;
+}
+
+
+/* Sixth Icon */
+
+.sixth {
+    text-align: center;
+    background: #0655FF;
+}
+
+.sixth .text {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sixth .line {
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    color: white;
+    width: 10px;
+    border: 1px solid white;
+}
+
+.seventh {
+    background: #127ABD;
+}
+
+.seventh .left {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    width: 12px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background: white;
+}
+
+.seventh .right {
+    position: absolute;
+    top: 11px;
+    left: 27px;
+    width: 12px;
+    height: 15px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background: white;
+}
+
+
+/* Friends */
+
+.friends {
+    margin-left: 91px;
+    width: 70%;
+    height: 100%;
+    background: black;
+    opacity: 87%;
+}
+
+.friends .text {
+    padding: 30px 0 0 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.friends .text ul {
+    list-style: none;
+}
+
+.friends .text ul li {
+    display: inline-block;
+}
+
+.friends .text svg {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.friends .text ul li:last-child {
+    margin-left: 73px;
+}
+
+.channel svg {
+    color: #B5B5B5;
+    margin-left: -20px;
+}
+
+.channel p {
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #B5B5B5;
+    font-weight: 400;
+}
+
+.header p {
+    color: #919191;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    cursor: pointer;
+    padding: 6px 0 6px 10px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #B5B5B5;
+}
+
+.list li.active,
+.list li:hover {
+    color: white;
+    background: grey 2%;
+}
+
+
+/* List of friends */
+
+.circle {
+    width: 8px;
+    height: 8px;
+    background: #666666;
+    border-radius: 20px;
+    margin-top: -23px;
+    margin-right: 5px;
+}
+
+.online {
+    background: #70CC16;
+}
+
+.img {
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: normal;
+    color: #B5B5B5;
+}
+
+.info p {
+    width: 100%;
+    left: 70px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.info li {
+    margin-bottom: 7px;
+}
+
+.slider {
+    float: right;
+    height: 100%;
+    background: black;
+    border: none;
+    opacity: 87%;
+    margin-right: 3px;
+}
+
+.slider .line {
+    margin-top: 30vh;
+    width: 7px;
+    height: 171px;
+    background: grey;
+    border-radius: 3px;
+    opacity: 87%;
+    margin-right: 5px;
+}
+
+
+/* Avatars */
+
+.rosso {
+    background: url(images/avatar.jpg);
+}
+
+.oleg {
+    background: url(images/avatar-2.jpg);
+}
+
+.danila {
+    background: url(images/avatar-4.jpg);
+}
+
+.sasha {
+    background: url(images/avatar-5.jpg) center;
+}

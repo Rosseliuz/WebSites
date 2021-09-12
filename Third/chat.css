@@ -1,0 +1,261 @@
+/* Nav */
+
+.chat {
+    width: 1325px;
+    height: 100vh;
+    background: white;
+    margin-left: 345px;
+}
+
+.chat header nav ul {
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.chat header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.chat header nav ul>li:nth-child(1n) {
+    font-size: 20px;
+}
+
+.chat header nav ul>li:nth-child(1n) svg {
+    margin-bottom: 5px;
+    color: #A4A4A4;
+    height: 15px;
+    width: 15px;
+    margin-left: -2px;
+}
+
+.chat header nav ul>li:nth-child(2n) {
+    position: relative;
+    font-size: 15px;
+    color: #A4A4A4;
+    padding-left: 57%;
+}
+
+input {
+    padding-top: -20px;
+    position: relative;
+    width: 241px;
+    height: 33px;
+    background: rgba(0, 0, 0, 0.0001);
+    border-radius: 3px;
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    outline: none;
+    padding-left: 10px;
+}
+
+input+svg {
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    left: 1560px;
+}
+
+.chat header nav ul>li:nth-child(2n) svg {
+    position: absolute;
+    top: -3px;
+    margin-left: -20px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+.chat header nav ul>li:nth-child(4n) svg {
+    cursor: pointer;
+    position: relative;
+    top: -26px;
+    left: 500px;
+}
+
+.chat header nav ul>li:nth-child(4n) svg+svg {
+    position: absolute;
+    left: 131.5vh;
+    top: -28px;
+    width: 5px;
+    height: 5px;
+    color: #FD4948;
+}
+
+.chat header nav ul>li:nth-child(5n) {
+    position: relative;
+}
+
+.chat header nav ul>li:nth-child(5n) svg {
+    position: absolute;
+    cursor: pointer;
+    top: -50px;
+    left: 490px;
+}
+
+
+/* Line */
+
+.hr {
+    margin-top: -10px;
+    height: 3px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.24);
+    width: 100%;
+}
+
+
+/* Message */
+
+.user {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.user>ul {
+    list-style: none;
+}
+
+.user>ul>li {
+    margin: 20px 0;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.user img {
+    margin-top: 4px;
+    border-radius: 5px;
+    background: none;
+    width: 40px;
+    height: 45px;
+    float: left;
+}
+
+time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8D8D8D;
+    margin-bottom: -10px;
+}
+
+.name {
+    float: left;
+    font-size: 13px;
+    margin-top: 0px;
+    text-indent: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+
+.letters {
+    margin-left: 50px;
+}
+
+.letters a {
+    color: #3577EF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.date-line {
+    border-top: 1px solid #b3b3b3;
+}
+
+.time {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.date-line time {
+    padding: 0 15px;
+    background: white;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.letters span {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user-img {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-img .image {
+    border-radius: 3px;
+    width: 400px;
+    height: 300px;
+    background: url(images/img.jpg) no-repeat;
+}
+
+.emoji {
+    text-align: center;
+    border-radius: 5px;
+    width: 45px;
+    height: 25px;
+    margin-top: -40px;
+    margin-left: 375px;
+    background: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
+}
+
+.emoji>* {
+    cursor: pointer;
+}
+
+
+/* Message input */
+
+.message-area {
+    height: 71.5px;
+    font-family: 'Lato', sans-serif;
+    border-top: 1px solid #b3b3b3;
+}
+
+.message-area ul {
+    padding: 20px 0;
+}
+
+.message-area ul li {
+    display: inline-block;
+}
+
+.message-area svg {
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.message-area .last {
+    margin-left: 20px;
+}
+
+.message-area input {
+    top: -8px;
+    width: 1150px;
+    border: none;
+}
+
+.message-area input::placeholder {
+    font-size: 20px;
+}
+
+
+/* Slider */
+
+.chat .slider {
+    left: 86.3%;
+    top: 50%;
+    position: absolute;
+    background: #b3b3b3;
+    width: 7px;
+    height: 300px;
+    border-radius: 10px;
+}
