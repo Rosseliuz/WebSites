@@ -69,14 +69,14 @@ input::placeholder {
 .chat header nav ul>li:nth-child(4n) svg {
     cursor: pointer;
     position: relative;
-    top: -26px;
+    top: -30px;
     left: 500px;
 }
 
 .chat header nav ul>li:nth-child(4n) svg+svg {
     position: absolute;
     left: 131.5vh;
-    top: -28px;
+    top: -30px;
     width: 5px;
     height: 5px;
     color: #FD4948;
@@ -89,7 +89,7 @@ input::placeholder {
 .chat header nav ul>li:nth-child(5n) svg {
     position: absolute;
     cursor: pointer;
-    top: -50px;
+    top: -55px;
     left: 490px;
 }
 
@@ -123,7 +123,6 @@ input::placeholder {
 
 .user img {
     margin-top: 4px;
-    border-radius: 5px;
     background: none;
     width: 40px;
     height: 45px;
@@ -244,7 +243,7 @@ time {
 }
 
 .message-area input::placeholder {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
