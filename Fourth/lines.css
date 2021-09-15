@@ -1,0 +1,195 @@
+.large-line-one {
+    width: 170px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    opacity: 0.4;
+    top: 85%;
+    left: 3.5%;
+    z-index: 1;
+}
+
+.large-line-two {
+    width: 170px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    opacity: 0.4;
+    top: 8%;
+    left: 73%;
+    z-index: 1;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 73%;
+    left: 3%;
+    z-index: 1;
+}
+
+.mini-square-one {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 70%;
+    position: absolute;
+    left: 58%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-square-two {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 32%;
+    position: absolute;
+    left: 3.5%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-square-three {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 25%;
+    position: absolute;
+    left: 58%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-square-four {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 8%;
+    position: absolute;
+    left: 12.5%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-square-five {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 8%;
+    position: absolute;
+    left: 14%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-square-six {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 85%;
+    position: absolute;
+    left: 86%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-square-seven {
+    width: 5px;
+    height: 5px;
+    background: black;
+    top: 85%;
+    position: absolute;
+    left: 87%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-line-one {
+    width: 30px;
+    height: 5px;
+    background: black;
+    top: 15%;
+    position: absolute;
+    left: 3.5%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-line-two {
+    width: 30px;
+    height: 5px;
+    background: black;
+    top: 16.5%;
+    position: absolute;
+    left: 56%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-line-three {
+    width: 30px;
+    height: 5px;
+    background: black;
+    top: 62%;
+    position: absolute;
+    left: 56%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.mini-line-four {
+    width: 30px;
+    height: 5px;
+    background: black;
+    top: 52%;
+    position: absolute;
+    left: 85%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.square-one {
+    width: 30px;
+    height: 30px;
+    background: black;
+    top: 81.5%;
+    position: absolute;
+    left: 97%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.square-two {
+    width: 30px;
+    height: 30px;
+    background: black;
+    top: 76%;
+    position: absolute;
+    left: 34%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.square-three {
+    width: 30px;
+    height: 30px;
+    background: black;
+    top: 8%;
+    position: absolute;
+    left: 28%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.square-four {
+    width: 30px;
+    height: 30px;
+    background: black;
+    top: 30%;
+    position: absolute;
+    left: 79.5%;
+    opacity: 0.4;
+    z-index: 1;
+}
