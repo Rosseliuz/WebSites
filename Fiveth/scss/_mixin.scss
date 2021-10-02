@@ -1,0 +1,19 @@
+$dark-blue: #22356F;
+$dark-blue-2:#0052C1;
+$orange:#F9B640;
+$light-blue: rgba(34, 53, 111, 0.5);
+$fourtypx: 40px;
+$pink: #FFE2DE;
+$light-green:#F4F9E2;
+$yellow-green: #C4E769;
+$blue: #62D0DF;
+$dark-orange: #E9B730;
+$purple: #8F00FF;
+$light-purple: #DEE1FF;
+// 
+// 
+@mixin logo {
+    color: #62D0DF;
+    font-size: 24px;
+    font-weight: bold;
+}

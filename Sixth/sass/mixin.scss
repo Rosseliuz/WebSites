@@ -1,0 +1,25 @@
+$grey: 1px solid rgba(255, 255, 255, 0.2);
+$Open-sans: 'Open Sans',
+sans-serif;
+$Pacifico: 'Pacifico',
+cursive;
+$yellow: #E8C300;
+$dark-grey: rgba(51, 51, 51, 0.5);
+$light-grey: #E5E5E5;
+$circle: rgba(255, 255, 255, 0.5);
+// 
+// 
+@mixin hr {
+    border-radius: 100px;
+    width: 70px;
+    opacity: 1;
+    border: 3px solid $yellow;
+}
+
+@mixin frame {
+    border-radius: 5px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 20px solid $yellow;
+}

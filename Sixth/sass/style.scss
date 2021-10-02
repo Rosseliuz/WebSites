@@ -1,0 +1,332 @@
+@import "mixin.scss";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    padding-top: 50px;
+    height: 100vh;
+    background: url('image/bg.png') no-repeat center;
+    background-size: 200vh;
+    nav {
+        text-align: center;
+    }
+    ul svg {
+        margin: 0 20px;
+    }
+    ul {
+        margin: 0 auto;
+        display: inline-flex;
+        vertical-align: top;
+        justify-content: space-between;
+    }
+    a {
+        margin: auto;
+        border-bottom: $grey;
+        padding: 60px 68px;
+        color: white;
+        text-decoration: none;
+        font-family: $Open-sans;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .open-time {
+        transform: rotate(-90deg) translateX(-230px) translateY(-150px);
+        text-align: center;
+        width: 44%;
+        padding-bottom: 170px;
+        border-bottom: $grey;
+        color: white;
+        font-family: $Open-sans;
+    }
+}
+
+.social {
+    transform: translateY(-282px) translateX(80%);
+    height: 91%;
+    border-left: $grey;
+    ul {
+        transform: translateY(281px);
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 200px;
+        border: $grey;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+    }
+    svg {
+        margin-top: 20px;
+    }
+    a {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}
+
+.social+.text {
+    text-align: center;
+    width: 1000px;
+    // border: 3px solid red;
+    top: 50%;
+    left: 23.8%;
+    position: absolute;
+    color: white;
+    p {
+        letter-spacing: 5px;
+        font-family: $Open-sans;
+    }
+    h1 {
+        font-size: 96px;
+        text-transform: uppercase;
+        font-family: 'Pacifico', cursive;
+    }
+    hr {
+        margin: 30px auto;
+        @include hr;
+    }
+    .scroll {
+        cursor: pointer;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 469px;
+        width: 60px;
+        height: 60px;
+        border: $grey;
+        border-radius: 100%;
+    }
+}
+
+.text>.button {
+    transform: translateX(220px) translateY(40px);
+    font-family: $Open-sans;
+    display: flex;
+    .one,
+    .two {
+        text-align: center;
+    }
+    .one {
+        margin-right: 30px;
+    }
+    a {
+        padding: 30px 80px;
+        border-radius: 5px;
+    }
+    .two>a {
+        border: $grey;
+    }
+    .one>a {
+        background: $yellow;
+    }
+}
+
+.scroll .bg {
+    cursor: pointer;
+    position: absolute;
+    left: 9px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    svg {
+        margin-top: 7px;
+    }
+}
+
+.line {
+    .line-one,
+    .line-two {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-left: $grey;
+        width: 30px;
+        height: 30px;
+        left: 50%;
+    }
+    .line-one {
+        top: 92%;
+        height: 77px;
+    }
+    .line-two {
+        top: 20%;
+        height: 635px;
+    }
+}
+
+.menu,
+.team,
+.book,
+.specialties {
+    display: flex;
+    .block {
+        position: relative;
+        width: 50%;
+    }
+    .text {
+        margin: 270px auto 150px auto;
+        text-align: center;
+        width: 700px;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-family: 'Pacifico', cursive;
+    }
+    b {
+        font-family: $Open-sans;
+        font-size: 20px;
+    }
+    p {
+        margin-left: 18px;
+        margin-top: 10px;
+        font-family: $Open-sans;
+        font-size: 16px;
+    }
+    img {
+        margin: 100px auto;
+        margin-left: 30px;
+        width: 475px;
+        height: 475px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    }
+    .frame {
+        top: 237.5px;
+        left: 370px;
+        @include frame;
+    }
+    hr {
+        margin-left: 320px;
+        @include hr;
+    }
+}
+
+.team,
+.specialties {
+    position: relative;
+    background: url('image/bg-2.png') no-repeat center;
+    color: white;
+    .block {
+        z-index: 2;
+    }
+    .header {
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-family: $Open-sans;
+        font-size: 12px;
+        left: 46%;
+        top: 40px;
+        position: absolute;
+    }
+    .frame {
+        top: 237.5px;
+        left: 70px;
+    }
+    img {
+        margin-left: 200px;
+    }
+    .text {
+        margin: 0;
+        margin-top: 270px;
+    }
+    .lines {
+        position: absolute;
+        .line-1,
+        .line-2,
+        .line-3 {
+            position: absolute;
+            border-left: $grey;
+            ;
+            height: 70vh;
+            top: 0;
+        }
+        .line-1 {
+            left: 300px;
+        }
+        .line-2 {
+            left: 930px;
+        }
+        .line-3 {
+            left: 1600px;
+        }
+    }
+}
+
+.book {
+    .text {
+        margin: 200px auto 150px auto;
+    }
+    input,
+    select {
+        border-radius: 5px;
+        padding: 20px;
+        border: none;
+        width: 270px;
+        background: $light-grey;
+        margin: 0px 5px 10px 0;
+    }
+    input::placeholder,
+    option,
+    select {
+        font-family: $Open-sans;
+        color: $dark-grey;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url('image/caret-down-fill.svg') 95% / 5% no-repeat $light-grey;
+    }
+    [type="submit"] {
+        font-family: $Open-sans;
+        width: 550px;
+        text-transform: uppercase;
+        color: white;
+        background: $yellow;
+    }
+}
+
+.specialties {
+    background: url('image/spec-bg.png') no-repeat center;
+    .circles {
+        left: 47.3%;
+        top: 92%;
+        position: absolute;
+        .circle {
+            margin-right: 10px;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: $circle;
+            border-radius: 100%;
+        }
+        .active {
+            background: white;
+        }
+    }
+}
+
+footer {
+    height: auto;
+    background: black;
+    p {
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+    }
+}
