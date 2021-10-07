@@ -1,0 +1,24 @@
+@Lato:  'Lato', sans-serif;
+@Open-Sans: 'Open Sans', sans-serif;
+@grey: #48555B;
+@light-grey: #E6E6E6;
+@dark-grey: #171819;
+@blue: #00A4E5;
+@dark-blue: darken(@blue, 10%);
+
+
+.button {
+
+    font-weight: bold;
+    font-size: 13px;
+    background: @blue;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .5s;
+
+        &:hover {
+            color: white;
+            background: @dark-blue;
+        }
+}
