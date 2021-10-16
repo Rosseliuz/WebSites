@@ -1,0 +1,88 @@
+$primary-color: #415167;
+$dark-primary: #232C38;
+$dark-primary-2: #151D28;
+$accent-color-f: #C7A17A;
+$accent-color-s: #F9F5E8;
+$dark-grey: #151D28;
+$light-grey: #EDF0F5;
+$light-grey-2:#F9FBFF;
+$dark-acc: darken($accent-color-f, 40%);
+// 
+$Nunito: 'Nunito',
+sans-serif;
+$Mont: 'Montserrat',
+sans-serif;
+@mixin header {
+    h1,
+    h3 {
+        color: $primary-color;
+    }
+    h1 {
+        font-family: $Mont;
+        font-weight: 900;
+    }
+    h4 {
+        padding-top: 40px;
+        padding-bottom: 12px;
+        color: $dark-primary;
+        font-size: 24px;
+    }
+}
+
+@mixin buttons {
+    .buttons {
+        display: flex;
+        width: 330px;
+        justify-content: space-between;
+        vertical-align: center;
+        align-items: center;
+        padding-bottom: 70px;
+        a {
+            color: $primary-color;
+            text-decoration: none;
+        }
+        a:first-child {
+            color: white;
+            background: $accent-color-f;
+            padding: 6px 32px;
+            border-radius: 30px;
+            transition: background .5s;
+            &:hover {
+                background: $dark-acc;
+            }
+        }
+        a:last-child {
+            font-weight: bold;
+        }
+    }
+}
+
+@mixin nav {
+    .array {
+        cursor: pointer;
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        background: $accent-color-f;
+        border-radius: 100%;
+        top: 55%;
+        left: 85%;
+        transition: background .5s;
+    }
+    svg {
+        padding-top: 15px;
+    }
+    .array:hover,
+    .read-more:hover {
+        background: $dark-acc;
+    }
+    .read-more {
+        cursor: pointer;
+        position: absolute;
+        transition: background .5s;
+        background: $accent-color-f;
+        padding: 10px;
+        color: white;
+        border-radius: 30px;
+    }
+}
